@@ -137,6 +137,7 @@ declare namespace DC {
         turnOnControls(): void;
         turnOffControls(): void;
         transitionDuration: IGetSet<number, T>;
+        rescale(): BaseMixin<T>;
         render(): void;
         redraw(): void;
         redrawGroup(): void;
